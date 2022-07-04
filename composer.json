@@ -1,0 +1,17 @@
+{
+    "name": "alexandre/tech",
+    "autoload": {
+        "psr-4": {
+            "Alexandre\\Tech\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Agamemnon94",
+            "email": "94798272+agamemnon94@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.4"
+    }
+}
