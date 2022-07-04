@@ -20,7 +20,7 @@
   --white: rgb(241, 241, 241);
   --textWhite: rgb(255, 255, 255);
   --coral: rgba(255, 127, 80, 1);
-  --dark: rgba(51, 51, 51, 1);
+  --dark: rgb(51, 51, 51);
 
   /* fonts */
   --title: "Spartan", sans serif;
@@ -42,7 +42,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  min-height: 100vh;
+  min-height: 4000px;
   background: var(--white);
 }
 h1 {
@@ -60,6 +60,47 @@ h2 {
 /*******************/
 /***** HEADER ******/
 /*******************/
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: var(--dark);
+  transition: all 0.3s ease-in-out;
+}
+
+ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background:  pink; */
+}
+
+li {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0 2%;
+  /* background: red; */
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white);
+  /* background: blue; */
+}
+
+.hidden_nav {
+  top: -75px;
+}
 
 /******************/
 /****** MAIN ******/
