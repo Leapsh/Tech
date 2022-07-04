@@ -78,7 +78,7 @@ footer {
   flex-direction: column;
   background: var(--dark);
   margin-top: 3rem;
-  padding: 2% 0;
+  padding: 2% 2%;
 }
 
 .footer_container {
