@@ -194,6 +194,7 @@ iframe {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  /* background: pink; */
 }
 
 .right_container li,
@@ -205,6 +206,7 @@ a {
 
 .right_container li {
   display: flex;
+  width: 100%;
   gap: 15px;
 }
 
