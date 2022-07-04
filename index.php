@@ -14,7 +14,7 @@ $twig = new Environment($loader, [
   'cache' => false //__DIR__.'cache'
 ]);
 
-$twig->addExtension(new DebugExtension());
+// $twig->addExtension(new DebugExtension());
 
 $page = isset($_GET['page']) && !empty($_GET['page']) ? $_GET['page'] : 'home';
 
