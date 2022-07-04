@@ -33,7 +33,7 @@
 <body class="clean__transition">
 
     <header>
-        {{% include ("_partial/header.twig") %}}
+        {{include ("_partials/header.twig")}}
     </header>
 
     <main>
@@ -43,9 +43,7 @@
     </main>
 
     <footer>
-        {% block footer %}
-
-        {% endblock %}
+        {{include('_partials/footer.twig')}}
     </footer>
 
 </body>
