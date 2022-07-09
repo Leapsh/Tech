@@ -20,14 +20,19 @@
   --white: rgb(241, 241, 241);
   --coral: rgba(255, 127, 80, 1);
   --dark: rgb(51, 51, 51);
+  --grey:#cec7c7;
   
 
-  /* fonts */
-  --title: "Spartan", sans serif;
+--title:arial, sans-serif;
 
-  /* sizes */
+ /* fonts */
+  --title: "Spartan", sans serif;
+  
+ /* sizes */
   --h1: max(4vw, 4rem, 5rem);
   --h2: max(2vw, 3rem, 3rem);
+  --big:50px;
+  --small:1.5rem;
 
   /* padding */
   --btnPadding: 10px 15px;
@@ -49,7 +54,7 @@ body {
 h1 {
   font-family: var(--title);
   font-size: var(--h1);
-  color: var(--coral);
+  color: var(--dark);
   text-align: center;
 }
 h2 {
@@ -116,6 +121,16 @@ a {
 /******************/
 /****** MAIN ******/
 /******************/
+
+
+
+
+
+
+
+
+
+
 
 /*******************/
 /***** FOOTER ******/
