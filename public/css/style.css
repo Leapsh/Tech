@@ -18,13 +18,18 @@
 :root {
   /* colors */
   --white: rgb(241, 241, 241);
+  --textWhite: rgb(255, 255, 255);
   --coral: rgba(255, 127, 80, 1);
   --dark: rgb(51, 51, 51);
+<<<<<<< HEAD
   --grey:#cec7c7;
   
+=======
+>>>>>>> e4f49a72aa25ecb8fc32291962d9e86540530e72
 
 --title:arial, sans-serif;
 
+<<<<<<< HEAD
  /* fonts */
   --title: "Spartan", sans serif;
   
@@ -33,6 +38,12 @@
   --h2: max(2vw, 3rem, 3rem);
   --big:50px;
   --small:1.5rem;
+=======
+  /* sizes */
+  --h1Size: clamp(3vw, 4rem, 5rem);
+  --h2Size: clamp(2vw, 3rem, 3.5rem);
+  --pSize: clamp(1.5rem, 2rem, 2.5rem);
+>>>>>>> e4f49a72aa25ecb8fc32291962d9e86540530e72
 
   /* padding */
   --btnPadding: 10px 15px;
@@ -49,8 +60,6 @@ body {
   min-height: 4000px;
   background: var(--white);
 }
-
-
 h1 {
   font-family: var(--title);
   font-size: var(--h1);
@@ -67,30 +76,27 @@ h2 {
 /***** HEADER ******/
 /*******************/
 
-.navbar{
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
-  width:100%;
-  height:70px;
-  background:var(--dark);
-  transition: all .3s ease-in-out;
-  
+  width: 100%;
+  height: 70px;
+  background: var(--dark);
+  transition: all 0.3s ease-in-out;
 }
 
-ul{ 
-  width:100%;
-  height:100%;
-  display:flex;
-  justify-content:flex-end;
+ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   /* background:  pink; */
-  
-
 }
 
-li{
-  height:100%;
+li {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +104,6 @@ li{
   list-style: none;
   padding: 0 2%;
   /* background: red; */
-  
 }
 
 a {
@@ -108,15 +113,9 @@ a {
   /* background: blue; */
 }
 
-.hidden_nav{
+.hidden_nav {
   top: -75px;
 }
-
-
-
-
-
-
 
 /******************/
 /****** MAIN ******/
@@ -135,3 +134,112 @@ a {
 /*******************/
 /***** FOOTER ******/
 /*******************/
+
+footer {
+  position: relative;
+  align-self: flex-end;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--dark);
+  margin-top: 7rem;
+  padding: 2% 2%;
+}
+
+.footer_container {
+  width: 100%;
+  display: flex;
+}
+
+/** left container **/
+.left_container {
+  position: relative;
+  width: calc(100% / 3);
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 2%;
+  background-image: url(/public/img/floriane-vita-FyD3OWBuXnY-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.left_container h3 {
+  color: var(--textWhite);
+  font-size: var(--h2Size);
+}
+
+.left_container img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20%;
+}
+#copy {
+  font-size: var(--pSize);
+  text-align: center;
+  padding: 15px 0;
+  color: var(--textWhite);
+}
+
+/** center container **/
+.center_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+
+  min-height: 100%;
+  padding: 2% 2%;
+  /* background: red; */
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/** right container **/
+.right_container {
+  position: relative;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+  width: calc(100% / 3);
+  min-height: 100%;
+  padding: 2% 2%;
+  /* background: blue; */
+}
+
+.right_container ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background: pink; */
+}
+
+.right_container li,
+a {
+  color: var(--textWhite);
+  list-style: none;
+  font-size: var(--pSize);
+}
+
+.right_container li {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+
+.right_container a {
+  text-decoration: none;
+}
+i {
+  line-height: 25px;
+  color: white;
+  font-size: 25px;
+}
