@@ -41,8 +41,11 @@ html {
   font-size: 62.5%;
 }
 body {
-  min-height: 4000px;
+  min-height: 200vh;
   background: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 h1 {
   font-family: var(--title);
@@ -110,6 +113,7 @@ a {
 /*******************/
 
 footer {
+  align-self: flex-end;
   position: relative;
   align-self: flex-end;
   width: 100%;
