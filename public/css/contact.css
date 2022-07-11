@@ -1,67 +1,61 @@
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 70px 0 0 0 ;
-  }
-
-h1{
-   
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0 0 0;
 }
-#content{
-   width: 400px;
-   background: #fff;
-   padding: 20px;
-   padding-top: 0;
-   font-family: calibri;
-   font-size: 18px;
-   color: #444;
-   margin: auto;
 
-   max-height: 270px;
-   overflow: hidden;
+#content {
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  padding-top: 0;
+  font-family: calibri;
+  font-size: 18px;
+  color: #444;
+  margin: auto;
 
-    /* Set transtion up */
-    /* -webkit-transition:max-height 0.7s;
+  max-height: 270px;
+  overflow: hidden;
+
+  /* Set transtion up */
+  /* -webkit-transition:max-height 0.7s;
     -moz-transition:max-height 0.7s;
     transition:max-height 0.7s; */
 
-   /*Set transition up */
-   /* -webkit-transition: max-height 0.7s;
+  /*Set transition up */
+  /* -webkit-transition: max-height 0.7s;
    -moz-transition:max-height 0.7s;
    transition:max-height 0. */
 }
 
- #content.open{
-   max-height: 1000px;
+#content.open {
+  max-height: 1000px;
 
-   /* Set transtion up */
-   /* -webkit-transition:max-height 0.7s;
+  /* Set transtion up */
+  /* -webkit-transition:max-height 0.7s;
    -moz-transition:max-height 0.7s;
    transition:max-height 0.7s; */
-
- }
-
-#show_more{
-   background: #1594e5;
-   color: #fff;  
-   font-family: calibri; 
-   display: block;
-   width:140px;
-   font-size: 24px;
-   text-transform: uppercase;
-   padding: 10px;
-   text-align: center;
-   margin: 20px auto;
-   cursor: pointer;
 }
 
+#show_more {
+  background: #1594e5;
+  color: #fff;
+  font-family: calibri;
+  display: block;
+  /* width: 140px; */
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
 
-
-  
- 
- /* .form_container{
+/* .form_container{
     
  }  */
 /*   
@@ -96,7 +90,7 @@ h1{
     font-size: 25px;
  } */
 
- /* .div_fo{
+/* .div_fo{
     display: flex;
     flex-direction: column;
  } */

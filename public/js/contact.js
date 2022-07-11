@@ -1,13 +1,18 @@
-var content = document.getElementById("content");
-var button = document.getElementById("show_more");
+let content = document.getElementById("content");
+let button = document.getElementById("show_more");
 
-button.onclick = function(){
-  
-  if (content.className == "open"){
-    content.className = "";
-    button.innerHTML ="Show More";
-  }else{
-    content.className = "open";
-    button.innerHTML = "Show Less";
-  }
-};
+// button.addEventListener('click', () => {
+//   console.log('Hello');
+//   if (content.className == "open") {
+//     content.className = "";
+//     button.innerHTML = "Show More";
+//   } else {
+//     content.className = "open";
+//     button.innerHTML = "Show Less";
+//   }
+// })
+
+
+console.log(button);
+console.log(content);
+console.log(document);
