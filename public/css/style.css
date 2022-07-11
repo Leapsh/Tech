@@ -21,29 +21,13 @@
   --textWhite: rgb(255, 255, 255);
   --coral: rgba(255, 127, 80, 1);
   --dark: rgb(51, 51, 51);
-<<<<<<< HEAD
-  --grey:#cec7c7;
-  
-=======
->>>>>>> e4f49a72aa25ecb8fc32291962d9e86540530e72
 
---title:arial, sans-serif;
+  --title: arial, sans-serif;
 
-<<<<<<< HEAD
- /* fonts */
-  --title: "Spartan", sans serif;
-  
- /* sizes */
-  --h1: max(4vw, 4rem, 5rem);
-  --h2: max(2vw, 3rem, 3rem);
-  --big:50px;
-  --small:1.5rem;
-=======
   /* sizes */
   --h1Size: clamp(3vw, 4rem, 5rem);
   --h2Size: clamp(2vw, 3rem, 3.5rem);
   --pSize: clamp(1.5rem, 2rem, 2.5rem);
->>>>>>> e4f49a72aa25ecb8fc32291962d9e86540530e72
 
   /* padding */
   --btnPadding: 10px 15px;
@@ -120,16 +104,6 @@ a {
 /******************/
 /****** MAIN ******/
 /******************/
-
-
-
-
-
-
-
-
-
-
 
 /*******************/
 /***** FOOTER ******/
